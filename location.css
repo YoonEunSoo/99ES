@@ -1,0 +1,175 @@
+/* main_text2 */
+*{
+	list-style: none;
+	text-decoration: none;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	}
+
+
+
+a {color:#FFF;}
+
+.contents1{
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.contents2{
+	font-size: 24px;
+}
+.contents1_bold{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.contents3{
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.intro_bg{
+	background-image: url("image/a.jpeg");
+	width: 100%;
+	height: 1200px;
+}
+
+.header{
+	display: flex;
+	width: 1900px;
+	margin: auto;
+	height: 50px;
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	z-index: 100;
+	box-shadow: 5px 5px 10px black;
+
+}
+
+.logo{
+	width: 300px;
+	height: 50px;
+	margin-top: -4px;
+	line-height: 50px;	
+	margin-left: 10px;
+
+}
+
+
+.logo > h1 > b   {
+	font-size: 30px;
+	font-weight: 100px;
+	font-family: 'M PLUS 1 Code', sans-serif;
+	color: white;
+}
+
+
+.nav{
+	display: flex;
+ 	justify-content: flex-end;
+	width: calc(1900px - 250px);
+	line-height: 50px;
+	margin-right: 150px;
+	
+}
+
+
+.nav > li { margin-left: 84px; }
+
+.nav >li > a { 
+	color: white; 
+	font-weight: bold;
+	font-size: 17px;
+	color: #4B4952;
+}
+
+.nav > li >a:hover {
+	 font-size: 1.2em;
+	 color: white;
+	 flex: 2;
+}
+
+.main_text2 {
+	float: left;
+	width: 951.5px;
+	height: 418px;
+	overflow: hidden;
+	background-image: url("location_img/4.png");
+}
+
+.main_text2 > ul {
+	padding-top: 138px;
+}
+
+.main_text2 > ul > li{
+	text-align: center;
+}
+
+.main_text2 > ul > li > h1,
+.main_text2 > ul > li > div {
+	color: #fff;
+}
+
+.main_text3{
+	float: right;
+	width: 951.5px;
+	height: 418px;
+	overflow: hidden;
+	background-image: url("location_img/1.jpg");
+}
+
+.main_text3 > ul {
+	padding-top: 138px;
+}
+
+.main_text3 > ul > li{
+	text-align: center;
+}
+
+.main_text3 > ul > li > h1,
+.main_text3 > ul > li > div {
+	color: #fff;
+}
+
+.more2{
+	width : 220px;
+	height: 40px;
+	border: 2px solid #fff;
+	line-height: 40px;
+	cursor: pointer;
+	margin: 16px auto;
+}
+
+footer {
+	display: flex;
+	background: #1f1f1f;
+	padding: 30px;
+	text-decoration: none;
+}
+
+footer > div:first-child{
+	flex: 3;
+	text-align: center;
+	color: #fff;
+}
+
+footer > div:last-child{
+	flex: 9;
+	color: #fff;
+}
+
+.main_map {
+	text-align: center;
+}
+
+.info{
+	margin-top: 30px;
+	height: 220px;
+	text-align: center;
+}
+
